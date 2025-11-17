@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Youssef Samaan — Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fav icon (simple svg) -->
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232b2b2b'/%3E%3Ctext x='50' y='58' font-size='48' text-anchor='middle' fill='%23f5f5f5' font-family='Inter, sans-serif'%3EYS%3C/text%3E%3C/svg%3E">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <h1 class="name">Youssef Samaan</h1>
+                <p class="role">Frontend Developer — UI / UX focused</p>
+            </div>
+
+            <nav class="nav" id="nav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="btn-outline" id="download-cv">Download CV</a>
+            </nav>
+
+            <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h2>Hello — I'm <span class="accent">Youssef</span></h2>
+                    <p class="lead">I build modern, accessible front-end experiences with clean code and thoughtful
+                        design. I specialize in JavaScript-driven interfaces, responsive layouts and polished UI.</p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn-primary">View Projects</a>
+                        <a href="#contact" class="btn-ghost">Get in touch</a>
+                    </div>
+                </div>
+
+                <aside class="profile-card" aria-hidden="false">
+                    <div class="avatar-wrap">
+                        <!-- Placeholder SVG avatar; replace src with your image (jpg/png) -->
+                        <img id="profile-img" src="/WhatsApp Image 2025-10-31 at 01.07.48_213194dd.jpg"
+                            alt="Youssef Samaan — profile photo">
+                    </div>
+                    <div class="profile-meta">
+                        <h3>Youssef Samaan</h3>
+                        <p>Frontend Developer</p>
+                        <div class="socials">
+                            <a href="#" title="GitHub (placeholder)">GitHub</a>
+                            <a href="#" title="LinkedIn (placeholder)">LinkedIn</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section container">
+            <div class="section-inner">
+                <h2 class="section-title">About Me</h2>
+                <p>I craft accessible and responsive front-end applications using vanilla JavaScript and modern HTML/CSS
+                    practices. I enjoy turning design ideas into performant UIs and improving UX through small,
+                    deliberate interactions.</p>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h4>Skills</h4>
+                        <ul>
+                            <li>HTML5 & CSS3 (responsive, BEM-like structure)</li>
+                            <li>Vanilla JavaScript & DOM manipulation</li>
+                            <li>Build tools, Git, and deployment (GitHub Pages, Netlify)</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-card">
+                        <h4>What I enjoy</h4>
+                        <ul>
+                            <li>Design systems & component thinking</li>
+                            <li>Improving accessibility and performance</li>
+                            <li>Small projects with meaningful UX</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2 class="section-titler">Projects</h2>
+
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="WhatsApp Image 2025-10-31 at 02.15.05_d320033b.jpg" alt="E-commerce Project Preview" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Frontend</h3>
+                        <p class="project-description">
+                            A modern online store built with HTML, CSS, and JavaScript featuring multi-language support,
+                            a shopping cart system, and admin product management.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://youssef75r7r75r57.github.io/ecommerce-project-frontend/" target="_blank"
+                                class="btn">Live Demo</a>
+                            <a href="https://github.com/Youssef75r7r75r57/ecommerce-project-frontend" target="_blank"
+                                class="btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="WhatsApp Image 2025-10-31 at 02.15.05_d320033b.jpg" alt="E-commerce Project" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Frontend</h3>
+                        <p class="project-description">
+                            A multi-language online store with cart functionality, admin panel, and Google Sheets
+                            integration.
+                        </p>
+                        <div class="project-links">
+                            <a href=" https://youssef75r7r75r57.github.io/CURDS-Project/" target="_blank"
+                                class="btn">Live Demo</a>
+                            <a href="https://github.com/Youssef75r7r75r57/ecommerce-project-frontend" target="_blank"
+                                class="btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section container">
+            <h2 class="section-title">Contact</h2>
+            <p>If you'd like to work together or see more of my code, reach out:</p>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h4>Email</h4>
+                    <a class="mono" href="#">ysamaan65@gmail.com</a>
+                </div>
+
+                <div class="contact-card">
+                    <h4>LinkedIn</h4>
+                    <a class="mono" href="#" aria-disabled="true">linkedin.com/in/your-profile</a>
+                </div>
+
+                <div class="contact-card">
+                    <h4>GitHub</h4>
+                    <a class="mono" href="https://github.com/Youssef75r7r75r57" aria-disabled="true">github.com/Youssef75r7r75r57</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="cur-year"></span> Youssef Samaan — Built with care ⚡</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
